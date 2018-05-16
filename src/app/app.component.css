@@ -20,10 +20,10 @@ h1{
     top: 0;
     text-shadow: 0 1px 0 rgb(40, 40, 40), 0 2px 0 rgb(30, 30, 30), 0 3px 0 rgb(20, 20, 20), 0 4px 0 rgb(10, 10, 10), 0 5px 0 rgb(0, 0, 0), 0 0 10px rgba(0, 0, 0, 0.8);
     font-family: "Oswald";
-    width: 200px;
+    width: 220px;
     border-radius: 10px;
 }
 
 .box.days, .box.seconds,.box.minutes,.box.hours,.box.ampm{
-    margin-right: 7%;
+    margin-right: 5%;
 }
