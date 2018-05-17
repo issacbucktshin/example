@@ -52,7 +52,13 @@ h1{
     }
 }
 
-
+.example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
 
 .box.days, .box.seconds,.box.minutes,.box.hours,.box.ampm{
     margin-right: 5%;
