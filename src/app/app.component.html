@@ -1,17 +1,3 @@
-<!--The content below is only a placeholder and can be replaced.
-<div class="app-container">
-  <div style="text-align:center">
-    <h1>
-      Welcome to {{ title }}!
-    </h1>
-    <ul class="container">
-      <li type="Days" class="box days" id="days">{{days}}:</li>
-      <li type="Hours" class="box hours" id="hours">{{hours}}:</li>
-      <li type="Minutes" class="box minutes" id="minutes">{{minutes}}:</li>
-      <li ype="Seconds" class="box seconds" id="seconds">{{seconds}}</li>
-    </ul>
-  </div>
-</div>-->
 <mat-toolbar-row  color="accent2Color" class="mat-toolbar mat-primary">
     <span class="example-spacer"></span>
     <span style="float: right;">
@@ -21,4 +7,17 @@
         <mat-icon class="example-icon">delete</mat-icon>
     </span>
 </mat-toolbar-row>
+<div class="app-container">
+    <div style="text-align:center">
+      <h1>
+        Welcome to {{ title }}!
+      </h1>
+      <ul class="container">
+        <li type="Days" class="box days" id="days">{{days}}:</li>
+        <li type="Hours" class="box hours" id="hours">{{hours}}:</li>
+        <li type="Minutes" class="box minutes" id="minutes">{{minutes}}:</li>
+        <li ype="Seconds" class="box seconds" id="seconds">{{seconds}}</li>
+      </ul>
+    </div>
+  </div>
 <router-outlet></router-outlet>
