@@ -5,9 +5,9 @@ import { HomeComponent } from './home/home.component';
 import { PlannerComponent } from './planner/planner.component';
 
 const routes : Routes  = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: HomeComponent},
-  { path: 'planner', component: PlannerComponent}
+  //{ path: '', redirectTo: '/example', pathMatch: 'full' },
+ // { path: 'example', component: HomeComponent},
+  //{ path: 'planner', component: PlannerComponent}
 ]
 
 @NgModule({
